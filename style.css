@@ -1,0 +1,60 @@
+body, html{
+    background:#232323;
+    color:white;
+    margin:0
+}
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    color:black;
+    background: rgb(142, 242, 150);
+    margin:0;
+    font-size: 48px; ;
+}
+h1 > span{
+color:red;
+}
+#colorWrapper{
+    width:500px;
+    margin:30px auto;
+}
+
+.squares{
+    width: 30%;
+    padding-bottom:30%;
+    float:left;
+    margin:1.66%;
+    background: greenyellow;
+    border-radius:25%;
+    transition: 0.6s;
+    
+
+}
+.strip{
+    height:30px;
+    background-color: honeydew;
+    color:black; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#message {
+    width:20%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 30px;
+
+}
+
+.selected{
+    background-color: rgb(142, 242, 150);
+    color : rgb(255,0,0);
+   
+}
+button{
+    margin-right:10px;
+    height:100%;
+    outline: none;
+    border:none;
+}
